@@ -20,6 +20,7 @@ public class TreeNode {
 
     /**
      * 根据数组生成二叉树，返回根节点
+     * 只适用于完全二叉树
      *
      * @param list
      * @param pos  初始为0

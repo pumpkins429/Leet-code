@@ -67,8 +67,8 @@ public class InitFile {
 
     @Test
     public void test() {
-        Integer num = 141;
-        String url = "https://leetcode.cn/problems/linked-list-cycle/?envType=study-plan-v2&envId=top-interview-150";
+        Integer num = 112;
+        String url = "https://leetcode.cn/problems/path-sum/description/?envType=study-plan-v2&envId=top-interview-150";
         InitFile.initFile(num, url);
     }
 
