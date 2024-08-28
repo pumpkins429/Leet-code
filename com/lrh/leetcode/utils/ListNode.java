@@ -7,14 +7,19 @@ public class ListNode {
 	public ListNode() {
 	}
 
+	public ListNode(int val) {
+		this.val = val;
+	}
 
 	public ListNode(int val, ListNode next) {
 		this.val = val;
 		this.next = next;
 	}
 
+
+	// ---------------------------------------------------------------------------------------
 	//生成链表
-	public ListNode generateListNode(Integer[] is) {
+	public static ListNode generateListNode(Integer[] is) {
 		ListNode list = new ListNode(0, null), tmp = list;
 
 		for (Integer num : is) {

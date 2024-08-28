@@ -43,7 +43,7 @@ public class InitFile {
                 "\n" +
                 "public class " + className + " {\n" +
                 "    @Test\n" +
-                "    public void Test() {\n" +
+                "    public void test() {\n" +
                 "        \n" +
                 "    }\n" +
                 "}\n";
@@ -67,8 +67,8 @@ public class InitFile {
 
     @Test
     public void test() {
-        Integer num = 1431;
-        String url = "https://leetcode.cn/problems/kids-with-the-greatest-number-of-candies/description/?envType=study-plan-v2&envId=leetcode-75";
+        Integer num = 933;
+        String url = "https://leetcode.cn/problems/number-of-recent-calls/description/?envType=study-plan-v2&envId=leetcode-75";
         InitFile.initFile(num, url);
     }
 
