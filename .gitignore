@@ -1,0 +1,7 @@
+# Ignore out directory
+out/
+
+# Optional: Other common ignores
+# .DS_Store
+# .idea/
+# *.iml
