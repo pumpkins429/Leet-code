@@ -30,8 +30,19 @@ Leet-code/
 - `out/` 目录已被添加到 `.gitignore` 中，不会被Git跟踪
 - 忽略规则创建于: 2026-03-04
 
+### 远程仓库
+- **github**: https://github.com/pumpkins429/Leet-code.git
+- **origin (gitee)**: https://gitee.com/pumpkinsBig/Leet-code.git
+- 用户偏好：默认推送到 github，不需要推送到 gitee
+
+### Trae CLI 配置
+- 安装路径：`/Applications/Trae CN.app/Contents/Resources/app/bin/trae`
+- 需要将路径添加到 PATH 才能在终端直接使用 `trae` 命令
+- 添加方法：在 `~/.zshrc` 中添加 `export PATH="/Applications/Trae CN.app/Contents/Resources/app/bin:$PATH"`
+
 ### 开发环境
 - 使用IntelliJ IDEA进行Java开发
+- 使用 Trae IDE 作为 AI 辅助编程工具
 - 项目包含LeetCode题目解决方案
 
 ## 近期操作记录
@@ -39,6 +50,11 @@ Leet-code/
 ### 2026-03-04
 1. 创建了 `.gitignore` 文件，添加了 `out/` 目录的忽略规则
 2. 创建了本记忆文件，用于Claude在后续会话中了解项目背景
+
+### 2026-03-07
+1. 添加了新题目 T679_MaxNumOfKSumPairs.java（K 和数对的最大数目）
+2. 更新了刷题笔记，添加到双指针分类
+3. 配置了 Trae CLI 使用说明
 
 ## 用户偏好与要求
 
